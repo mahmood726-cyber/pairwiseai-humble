@@ -1,0 +1,17 @@
+FORMULA VALIDATION RESULTS
+==========================
+
+Total tests: 10 
+Passed: 8 
+Failed: 2 
+
+Log Odds Ratio : PASS 
+Continuity Correction : PASS 
+Mean Difference : PASS 
+Standardized Mean Difference : PASS 
+tau² DerSimonian-Laird : PASS 
+Q and I² Statistics : PASS 
+Pooled Effect Estimate : PASS 
+Prediction Interval : FAIL 
+Egger's Test : FAIL 
+HR from CI : PASS 

@@ -1,0 +1,1047 @@
+{
+  "SGLT2_CV_DEATH_HFPEF": {
+    "dataset": "SGLT2_CV_DEATH_HFPEF",
+    "description": "SGLT2i - CV Death in HFpEF",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 3.7021e-07,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.1259,
+      "se": 0.0064,
+      "ci_lower_log": -0.2074,
+      "ci_upper_log": -0.0444,
+      "z_or_t": -19.6309,
+      "p_value": 0.0324,
+      "estimate_exp": 0.8817,
+      "ci_lower_exp": 0.8127,
+      "ci_upper_exp": 0.9566
+    },
+    "heterogeneity": {
+      "Q": 0.009,
+      "Q_df": 1,
+      "Q_p": 0.9243,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.2074,
+      "pi_upper_log": -0.0444,
+      "pi_lower_exp": 0.8127,
+      "pi_upper_exp": 0.9566
+    }
+  },
+  "SGLT2_ACM": {
+    "dataset": "SGLT2_ACM",
+    "description": "SGLT2i - All-Cause Mortality (5 trials)",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0007,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.1096,
+      "se": 0.0249,
+      "ci_lower_log": -0.1787,
+      "ci_upper_log": -0.0405,
+      "z_or_t": -4.4039,
+      "p_value": 0.0117,
+      "estimate_exp": 0.8962,
+      "ci_lower_exp": 0.8364,
+      "ci_upper_exp": 0.9603
+    },
+    "heterogeneity": {
+      "Q": 1.6562,
+      "Q_df": 4,
+      "Q_p": 0.7986,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.1787,
+      "pi_upper_log": -0.0405,
+      "pi_lower_exp": 0.8364,
+      "pi_upper_exp": 0.9603
+    },
+    "egger_test": {
+      "z": -0.4132,
+      "p": 0.7072
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.1096,
+      "ci_lower_adjusted": -0.1787,
+      "ci_upper_adjusted": -0.0405
+    }
+  },
+  "SGLT2_HFH": {
+    "dataset": "SGLT2_HFH",
+    "description": "SGLT2i - HF Hospitalization",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0005,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.3358,
+      "se": 0.0261,
+      "ci_lower_log": -0.4189,
+      "ci_upper_log": -0.2528,
+      "z_or_t": -12.871,
+      "p_value": 0.001,
+      "estimate_exp": 0.7147,
+      "ci_lower_exp": 0.6578,
+      "ci_upper_exp": 0.7766
+    },
+    "heterogeneity": {
+      "Q": 1.0956,
+      "Q_df": 3,
+      "Q_p": 0.7781,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.4189,
+      "pi_upper_log": -0.2528,
+      "pi_lower_exp": 0.6578,
+      "pi_upper_exp": 0.7766
+    },
+    "egger_test": {
+      "z": -5.2322,
+      "p": 0.0346
+    },
+    "trimfill": {
+      "k0": 1,
+      "side": "right",
+      "estimate_adjusted": -0.3206,
+      "ci_lower_adjusted": -0.3971,
+      "ci_upper_adjusted": -0.2442
+    }
+  },
+  "PSYCH_INTERVENTION": {
+    "dataset": "PSYCH_INTERVENTION",
+    "description": "Psychological Intervention - CHD Mortality",
+    "dataType": "binary",
+    "measure": "RR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0008,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.0002,
+      "se": 0.0407,
+      "ci_lower_log": -0.1295,
+      "ci_upper_log": 0.1292,
+      "z_or_t": -0.0041,
+      "p_value": 0.997,
+      "estimate_exp": 0.9998,
+      "ci_lower_exp": 0.8785,
+      "ci_upper_exp": 1.1379
+    },
+    "heterogeneity": {
+      "Q": 0.4219,
+      "Q_df": 3,
+      "Q_p": 0.9357,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.1295,
+      "pi_upper_log": 0.1292,
+      "pi_lower_exp": 0.8785,
+      "pi_upper_exp": 1.1379
+    },
+    "egger_test": {
+      "z": 0.614,
+      "p": 0.6018
+    },
+    "trimfill": {
+      "k0": 1,
+      "side": "left",
+      "estimate_adjusted": -0.0231,
+      "ci_lower_adjusted": -0.2197,
+      "ci_upper_adjusted": 0.1735
+    }
+  },
+  "BCG": {
+    "dataset": "BCG",
+    "description": "BCG Vaccine for TB Prevention",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0.251,
+      "REML": 0.2564,
+      "PM": 0.2093,
+      "ML": 0.1992,
+      "HS": 0.1362,
+      "SJ": 0.2184,
+      "HE": 0.1192,
+      "EB": 0.2093
+    },
+    "pooled_effect": {
+      "estimate_log": -0.9881,
+      "se": 0.2325,
+      "ci_lower_log": -1.5857,
+      "ci_upper_log": -0.3905,
+      "z_or_t": -4.2502,
+      "p_value": 0.0081,
+      "estimate_exp": 0.3723,
+      "ci_lower_exp": 0.2048,
+      "ci_upper_exp": 0.6767
+    },
+    "heterogeneity": {
+      "Q": 32.9742,
+      "Q_df": 5,
+      "Q_p": 3.8081e-06,
+      "tau2": 0.2564,
+      "tau": 0.5064,
+      "I2": 85.1082,
+      "H2": 6.7151
+    },
+    "prediction_interval": {
+      "pi_lower_log": -2.4204,
+      "pi_upper_log": 0.4442,
+      "pi_lower_exp": 0.0889,
+      "pi_upper_exp": 1.5592
+    },
+    "egger_test": {
+      "z": -0.4872,
+      "p": 0.6516
+    },
+    "trimfill": {
+      "k0": 1,
+      "side": "right",
+      "estimate_adjusted": -0.8822,
+      "ci_lower_adjusted": -1.3529,
+      "ci_upper_adjusted": -0.4115
+    }
+  },
+  "ASPIRIN_CVD": {
+    "dataset": "ASPIRIN_CVD",
+    "description": "Aspirin for CVD Prevention",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0.0272,
+      "REML": 0.0249,
+      "PM": 0.0223,
+      "ML": 0.0181,
+      "HS": 0.0171,
+      "SJ": 0.0233,
+      "HE": 0.019,
+      "EB": 0.0223
+    },
+    "pooled_effect": {
+      "estimate_log": -0.2373,
+      "se": 0.0832,
+      "ci_lower_log": -0.4684,
+      "ci_upper_log": -0.0063,
+      "z_or_t": -2.8523,
+      "p_value": 0.0463,
+      "estimate_exp": 0.7887,
+      "ci_lower_exp": 0.626,
+      "ci_upper_exp": 0.9937
+    },
+    "heterogeneity": {
+      "Q": 13.7737,
+      "Q_df": 4,
+      "Q_p": 0.0081,
+      "tau2": 0.0249,
+      "tau": 0.1578,
+      "I2": 69.1074,
+      "H2": 3.237
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.7325,
+      "pi_upper_log": 0.2579,
+      "pi_lower_exp": 0.4807,
+      "pi_upper_exp": 1.2942
+    },
+    "egger_test": {
+      "z": -0.8811,
+      "p": 0.4432
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.2373,
+      "ci_lower_adjusted": -0.4684,
+      "ci_upper_adjusted": -0.0063
+    }
+  },
+  "BP_REDUCTION": {
+    "dataset": "BP_REDUCTION",
+    "description": "Blood Pressure Reduction (Continuous)",
+    "dataType": "continuous",
+    "measure": "MD",
+    "tau2_estimates": {
+      "DL": 0.3005,
+      "REML": 0.3623,
+      "PM": 0.2729,
+      "ML": 0.1127,
+      "HS": 0.0473,
+      "SJ": 0.6083,
+      "HE": 0.1231,
+      "EB": 0.2729
+    },
+    "pooled_effect": {
+      "estimate_log": -7.7635,
+      "se": 0.4962,
+      "ci_lower_log": -9.1413,
+      "ci_upper_log": -6.3857,
+      "z_or_t": -15.6447,
+      "p_value": 0.0001,
+      "estimate_exp": 0.0004,
+      "ci_lower_exp": 0.0001,
+      "ci_upper_exp": 0.0017
+    },
+    "heterogeneity": {
+      "Q": 5.2533,
+      "Q_df": 4,
+      "Q_p": 0.2623,
+      "tau2": 0.3623,
+      "tau": 0.6019,
+      "I2": 27.4184,
+      "H2": 1.3778
+    },
+    "prediction_interval": {
+      "pi_lower_log": -9.9294,
+      "pi_upper_log": -5.5976,
+      "pi_lower_exp": 0,
+      "pi_upper_exp": 0.0037
+    },
+    "egger_test": {
+      "z": 1.4518,
+      "p": 0.2425
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "left",
+      "estimate_adjusted": -7.7635,
+      "ci_lower_adjusted": -9.1413,
+      "ci_upper_adjusted": -6.3857
+    }
+  },
+  "MORTALITY_RATE": {
+    "dataset": "MORTALITY_RATE",
+    "description": "ICU Mortality Rate (Proportion)",
+    "dataType": "proportion",
+    "measure": "PLO",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0016,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -1.8913,
+      "se": 0.0378,
+      "ci_lower_log": -1.9884,
+      "ci_upper_log": -1.7942,
+      "z_or_t": -50.0614,
+      "p_value": 6.0109e-08,
+      "estimate_exp": 0.1509,
+      "ci_lower_exp": 0.1369,
+      "ci_upper_exp": 0.1663
+    },
+    "heterogeneity": {
+      "Q": 1.593,
+      "Q_df": 5,
+      "Q_p": 0.9021,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -1.9884,
+      "pi_upper_log": -1.7942,
+      "pi_lower_exp": 0.1369,
+      "pi_upper_exp": 0.1663
+    },
+    "egger_test": {
+      "z": 3.3008,
+      "p": 0.0299
+    },
+    "trimfill": {
+      "k0": 2,
+      "side": "left",
+      "estimate_adjusted": -1.9267,
+      "ci_lower_adjusted": -2.0426,
+      "ci_upper_adjusted": -1.8107
+    }
+  },
+  "SGLT2_HR": {
+    "dataset": "SGLT2_HR",
+    "description": "SGLT2i - HF Hospitalization (HR)",
+    "dataType": "hr",
+    "measure": "HR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.002,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.3288,
+      "se": 0.0325,
+      "ci_lower_log": -0.419,
+      "ci_upper_log": -0.2385,
+      "z_or_t": -10.1099,
+      "p_value": 0.0005,
+      "estimate_exp": 0.7198,
+      "ci_lower_exp": 0.6577,
+      "ci_upper_exp": 0.7878
+    },
+    "heterogeneity": {
+      "Q": 2.9049,
+      "Q_df": 4,
+      "Q_p": 0.5739,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.419,
+      "pi_upper_log": -0.2385,
+      "pi_lower_exp": 0.6577,
+      "pi_upper_exp": 0.7878
+    },
+    "egger_test": {
+      "z": -2.1877,
+      "p": 0.1165
+    },
+    "trimfill": {
+      "k0": 2,
+      "side": "right",
+      "estimate_adjusted": -0.3016,
+      "ci_lower_adjusted": -0.3672,
+      "ci_upper_adjusted": -0.2361
+    }
+  },
+  "BCG_SUBGROUPS": {
+    "dataset": "BCG_SUBGROUPS",
+    "description": "BCG Vaccine with Subgroups",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0.251,
+      "REML": 0.2564,
+      "PM": 0.2093,
+      "ML": 0.1992,
+      "HS": 0.1362,
+      "SJ": 0.2184,
+      "HE": 0.1192,
+      "EB": 0.2093
+    },
+    "pooled_effect": {
+      "estimate_log": -0.9881,
+      "se": 0.2325,
+      "ci_lower_log": -1.5857,
+      "ci_upper_log": -0.3905,
+      "z_or_t": -4.2502,
+      "p_value": 0.0081,
+      "estimate_exp": 0.3723,
+      "ci_lower_exp": 0.2048,
+      "ci_upper_exp": 0.6767
+    },
+    "heterogeneity": {
+      "Q": 32.9742,
+      "Q_df": 5,
+      "Q_p": 3.8081e-06,
+      "tau2": 0.2564,
+      "tau": 0.5064,
+      "I2": 85.1082,
+      "H2": 6.7151
+    },
+    "prediction_interval": {
+      "pi_lower_log": -2.4204,
+      "pi_upper_log": 0.4442,
+      "pi_lower_exp": 0.0889,
+      "pi_upper_exp": 1.5592
+    },
+    "egger_test": {
+      "z": -0.4872,
+      "p": 0.6516
+    },
+    "trimfill": {
+      "k0": 1,
+      "side": "right",
+      "estimate_adjusted": -0.8822,
+      "ci_lower_adjusted": -1.3529,
+      "ci_upper_adjusted": -0.4115
+    },
+    "subgroup": {
+      "QM": 67.1,
+      "QM_p": 2.6879e-15,
+      "coefficients": [-1.4345, -0.5307],
+      "se": [0.1901, 0.1665],
+      "groups": ["Northern", "Tropical"]
+    }
+  },
+  "SMALL_SAMPLE": {
+    "dataset": "SMALL_SAMPLE",
+    "description": "Small Sample Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0028,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.7961,
+      "se": 0.1235,
+      "ci_lower_log": -1.3274,
+      "ci_upper_log": -0.2649,
+      "z_or_t": -6.4476,
+      "p_value": 0.0232,
+      "estimate_exp": 0.4511,
+      "ci_lower_exp": 0.2652,
+      "ci_upper_exp": 0.7673
+    },
+    "heterogeneity": {
+      "Q": 0.207,
+      "Q_df": 2,
+      "Q_p": 0.9017,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -1.3274,
+      "pi_upper_log": -0.2649,
+      "pi_lower_exp": 0.2652,
+      "pi_upper_exp": 0.7673
+    },
+    "egger_test": {
+      "z": -2.3299,
+      "p": 0.2581
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.7961,
+      "ci_lower_adjusted": -1.3274,
+      "ci_upper_adjusted": -0.2649
+    }
+  },
+  "ZERO_EVENTS": {
+    "dataset": "ZERO_EVENTS",
+    "description": "Zero Events Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.1332,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.7736,
+      "se": 0.3181,
+      "ci_lower_log": -2.1423,
+      "ci_upper_log": 0.5951,
+      "z_or_t": -2.4319,
+      "p_value": 0.1355,
+      "estimate_exp": 0.4614,
+      "ci_lower_exp": 0.1174,
+      "ci_upper_exp": 1.8132
+    },
+    "heterogeneity": {
+      "Q": 0.9018,
+      "Q_df": 2,
+      "Q_p": 0.637,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -2.1423,
+      "pi_upper_log": 0.5951,
+      "pi_lower_exp": 0.1174,
+      "pi_upper_exp": 1.8132
+    },
+    "egger_test": {
+      "z": -39.1418,
+      "p": 0.0163
+    },
+    "trimfill": {
+      "k0": 2,
+      "side": "right",
+      "estimate_adjusted": -0.4935,
+      "ci_lower_adjusted": -1.2791,
+      "ci_upper_adjusted": 0.2921
+    }
+  },
+  "LARGE_EFFECT": {
+    "dataset": "LARGE_EFFECT",
+    "description": "Large Effect Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0072,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -2.5984,
+      "se": 0.1012,
+      "ci_lower_log": -2.9205,
+      "ci_upper_log": -2.2763,
+      "z_or_t": -25.6734,
+      "p_value": 0.0001,
+      "estimate_exp": 0.0744,
+      "ci_lower_exp": 0.0539,
+      "ci_upper_exp": 0.1027
+    },
+    "heterogeneity": {
+      "Q": 0.6112,
+      "Q_df": 3,
+      "Q_p": 0.8939,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -2.9205,
+      "pi_upper_log": -2.2763,
+      "pi_lower_exp": 0.0539,
+      "pi_upper_exp": 0.1027
+    },
+    "egger_test": {
+      "z": -3.6134,
+      "p": 0.0688
+    },
+    "trimfill": {
+      "k0": 1,
+      "side": "right",
+      "estimate_adjusted": -2.5444,
+      "ci_lower_adjusted": -2.9579,
+      "ci_upper_adjusted": -2.1308
+    }
+  },
+  "HOMOGENEOUS": {
+    "dataset": "HOMOGENEOUS",
+    "description": "Homogeneous Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 5.0563e-07,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.5334,
+      "se": 0.0073,
+      "ci_lower_log": -0.5536,
+      "ci_upper_log": -0.5133,
+      "z_or_t": -73.5323,
+      "p_value": 2.0498e-07,
+      "estimate_exp": 0.5866,
+      "ci_lower_exp": 0.5749,
+      "ci_upper_exp": 0.5985
+    },
+    "heterogeneity": {
+      "Q": 0.0097,
+      "Q_df": 4,
+      "Q_p": 1,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.5536,
+      "pi_upper_log": -0.5133,
+      "pi_lower_exp": 0.5749,
+      "pi_upper_exp": 0.5985
+    },
+    "egger_test": {
+      "z": -422.654,
+      "p": 2.9208e-08
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.5334,
+      "ci_lower_adjusted": -0.5536,
+      "ci_upper_adjusted": -0.5133
+    }
+  },
+  "TWO_STUDIES": {
+    "dataset": "TWO_STUDIES",
+    "description": "Two Studies Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.7309,
+      "se": 0.0343,
+      "ci_lower_log": -1.1673,
+      "ci_upper_log": -0.2945,
+      "z_or_t": -21.2805,
+      "p_value": 0.0299,
+      "estimate_exp": 0.4815,
+      "ci_lower_exp": 0.3112,
+      "ci_upper_exp": 0.7449
+    },
+    "heterogeneity": {
+      "Q": 0.0274,
+      "Q_df": 1,
+      "Q_p": 0.8685,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -1.1673,
+      "pi_upper_log": -0.2945,
+      "pi_lower_exp": 0.3112,
+      "pi_upper_exp": 0.7449
+    }
+  },
+  "SMD_TEST": {
+    "dataset": "SMD_TEST",
+    "description": "Standardized Mean Difference Test",
+    "dataType": "continuous",
+    "measure": "SMD",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0103,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.8704,
+      "se": 0.0872,
+      "ci_lower_log": -1.1479,
+      "ci_upper_log": -0.5928,
+      "z_or_t": -9.9806,
+      "p_value": 0.0021,
+      "estimate_exp": 0.4188,
+      "ci_lower_exp": 0.3173,
+      "ci_upper_exp": 0.5528
+    },
+    "heterogeneity": {
+      "Q": 2.1869,
+      "Q_df": 3,
+      "Q_p": 0.5345,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -1.1479,
+      "pi_upper_log": -0.5928,
+      "pi_lower_exp": 0.3173,
+      "pi_upper_exp": 0.5528
+    },
+    "egger_test": {
+      "z": -2.8073,
+      "p": 0.1069
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.8704,
+      "ci_lower_adjusted": -1.1479,
+      "ci_upper_adjusted": -0.5928
+    }
+  },
+  "RISK_DIFF_TEST": {
+    "dataset": "RISK_DIFF_TEST",
+    "description": "Risk Difference Test",
+    "dataType": "binary",
+    "measure": "RD",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0001,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.1439,
+      "se": 0.0183,
+      "ci_lower_log": -0.2225,
+      "ci_upper_log": -0.0654,
+      "z_or_t": -7.8816,
+      "p_value": 0.0157,
+      "estimate_exp": 0.866,
+      "ci_lower_exp": 0.8005,
+      "ci_upper_exp": 0.9367
+    },
+    "heterogeneity": {
+      "Q": 0.5233,
+      "Q_df": 2,
+      "Q_p": 0.7698,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.2225,
+      "pi_upper_log": -0.0654,
+      "pi_lower_exp": 0.8005,
+      "pi_upper_exp": 0.9367
+    },
+    "egger_test": {
+      "z": -2.9492,
+      "p": 0.2081
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.1439,
+      "ci_lower_adjusted": -0.2225,
+      "ci_upper_adjusted": -0.0654
+    }
+  },
+  "LARGE_N": {
+    "dataset": "LARGE_N",
+    "description": "Large Sample Size Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 1.1842e-06,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -0.2887,
+      "se": 0.0053,
+      "ci_lower_log": -0.3114,
+      "ci_upper_log": -0.266,
+      "z_or_t": -54.7521,
+      "p_value": 0.0003,
+      "estimate_exp": 0.7493,
+      "ci_lower_exp": 0.7325,
+      "ci_upper_exp": 0.7664
+    },
+    "heterogeneity": {
+      "Q": 0.0438,
+      "Q_df": 2,
+      "Q_p": 0.9783,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.3114,
+      "pi_upper_log": -0.266,
+      "pi_lower_exp": 0.7325,
+      "pi_upper_exp": 0.7664
+    },
+    "egger_test": {
+      "z": -0.1064,
+      "p": 0.9325
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.2887,
+      "ci_lower_adjusted": -0.3114,
+      "ci_upper_adjusted": -0.266
+    }
+  },
+  "EXTREME_HET": {
+    "dataset": "EXTREME_HET",
+    "description": "Extreme Heterogeneity Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 6.8069,
+      "REML": 7.2284,
+      "PM": 7.239,
+      "ML": 5.3724,
+      "HS": 4.9508,
+      "SJ": 7.1854,
+      "HE": 7.2495,
+      "EB": 7.239
+    },
+    "pooled_effect": {
+      "estimate_log": -0.3331,
+      "se": 1.3613,
+      "ci_lower_log": -4.6654,
+      "ci_upper_log": 3.9993,
+      "z_or_t": -0.2447,
+      "p_value": 0.8225,
+      "estimate_exp": 0.7167,
+      "ci_lower_exp": 0.0094,
+      "ci_upper_exp": 54.5579
+    },
+    "heterogeneity": {
+      "Q": 126.248,
+      "Q_df": 3,
+      "Q_p": 3.4797e-27,
+      "tau2": 7.2284,
+      "tau": 2.6886,
+      "I2": 97.7592,
+      "H2": 44.6262
+    },
+    "prediction_interval": {
+      "pi_lower_log": -9.9236,
+      "pi_upper_log": 9.2574,
+      "pi_lower_exp": 0,
+      "pi_upper_exp": 10482.2147
+    },
+    "egger_test": {
+      "z": -0.8031,
+      "p": 0.5062
+    },
+    "trimfill": {
+      "k0": 0,
+      "side": "right",
+      "estimate_adjusted": -0.3331,
+      "ci_lower_adjusted": -4.6654,
+      "ci_upper_adjusted": 3.9993
+    }
+  },
+  "NEAR_NULL": {
+    "dataset": "NEAR_NULL",
+    "description": "Near Null Effect Test",
+    "dataType": "binary",
+    "measure": "OR",
+    "tau2_estimates": {
+      "DL": 0,
+      "REML": 0,
+      "PM": 0,
+      "ML": 0,
+      "HS": 0,
+      "SJ": 0.0001,
+      "HE": 0,
+      "EB": 0
+    },
+    "pooled_effect": {
+      "estimate_log": -1.4683e-06,
+      "se": 0.0269,
+      "ci_lower_log": -0.0857,
+      "ci_upper_log": 0.0857,
+      "z_or_t": -0.0001,
+      "p_value": 1,
+      "estimate_exp": 1,
+      "ci_lower_exp": 0.9179,
+      "ci_upper_exp": 1.0895
+    },
+    "heterogeneity": {
+      "Q": 0.0938,
+      "Q_df": 3,
+      "Q_p": 0.9926,
+      "tau2": 0,
+      "tau": 0,
+      "I2": 0,
+      "H2": 1
+    },
+    "prediction_interval": {
+      "pi_lower_log": -0.0857,
+      "pi_upper_log": 0.0857,
+      "pi_lower_exp": 0.9179,
+      "pi_upper_exp": 1.0895
+    },
+    "egger_test": {
+      "z": 3.0236,
+      "p": 0.0942
+    },
+    "trimfill": {
+      "k0": 1,
+      "side": "left",
+      "estimate_adjusted": -0.0148,
+      "ci_lower_adjusted": -0.2856,
+      "ci_upper_adjusted": 0.2561
+    }
+  }
+}
